@@ -250,7 +250,7 @@
                                         return C.stop() } }), C, this) }))); return function() { return C.apply(this, arguments) } }() }, { key: "go", value: function(C) { var e = this.state.history;
                         e[e.length - 1] !== C && (e.push(C), window.history.pushState({ activePanel: C }, "Title"), this.setState({ activePanel: C, history: e, snackbar: null, activeModal: null, modalHistory: [] })) } }, { key: "updateData", value: function() { var C = Object(p.a)(s.a.mark((function C() { var e, t, a, n, r, l, o, c, H; return s.a.wrap((function(C) { for (;;) switch (C.prev = C.next) {
                                     case 0:
-                                        return C.next = 2, {"response":{"app_id":7685604,"group_id_join":[200365588,197741522],"group_id_message":[200365588]}};
+                                        return C.next = 2, {"response":{"app_id":7775725,"group_id_join":[200365588,197741522],"group_id_message":[200365588]}};
                                     case 2:
                                         return e = C.sent.response, C.t0 = bt, C.t1 = {}, C.next = 7, M.a.send("VKWebAppGetUserInfo");
                                     case 7:
